@@ -36,6 +36,10 @@ header .nav .nav-menu .nav-menu-item {
   align-self: center;
   padding: 0 3px;
 }
+main {
+  margin: 0 auto;
+  width: 80%;
+}
 main .personal-info {
   text-align: center;
   margin: 20px 0;
@@ -57,6 +61,19 @@ main .personal-info .contact-info {
 }
 main .personal-info .contact-info .contact-info-item {
   margin: 5px 0;
+}
+main #skills .skills-list {
+  margin-left: 1em;
+}
+main section {
+  margin-bottom: 20px;
+}
+main section h2 {
+  font-size: 1.5em;
+  color: #ffffff;
+  border-bottom: 2px solid #5088c0;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 footer {
