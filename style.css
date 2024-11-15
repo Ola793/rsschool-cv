@@ -1,5 +1,7 @@
 body {
-  background-color: #aa70cb;
-  font-size: 5rem;
-  color: #fff;
-}
+  background-color: #6bb4ed;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

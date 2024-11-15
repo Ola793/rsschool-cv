@@ -1,0 +1,10 @@
+$base-color: #ffffff;
+$background-color: #6bb4ed;
+
+body {
+  background-color: $background-color;
+  color: $base-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
