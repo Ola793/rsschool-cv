@@ -1,30 +1,55 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
 
 body {
-  background-color: #6bb4ed;
+  margin: 0 auto;
+  font-size: larger;
   color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #6bb4ed;
 }
 
 header {
-  background-color: #0073e6;
+  background-color: #5088c0;
   color: #ffffff;
   padding: 10px;
+  border-radius: 1px;
 }
-header nav ul {
+header .nav {
   display: flex;
-  gap: 15px;
-  list-style: none;
   justify-content: center;
 }
-header a {
+header .nav .nav-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  list-style: none;
+}
+header .nav .nav-menu .nav-menu-item {
+  padding: 0 3px;
+}
+header .nav .nav-menu .nav-menu-item .nav-menu-link {
   color: #ffffff;
   text-decoration: none;
+}
+
+main .personal-info {
+  text-align: center;
+  margin: 20px 0;
+}
+main .personal-info .profile-photo {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+main .personal-info h1 {
+  font-size: 2em;
+}
+main .personal-info .contact-info {
+  margin-top: 10px;
+  font-size: 1em;
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */

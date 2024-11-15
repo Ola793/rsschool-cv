@@ -1,37 +1,71 @@
 $font-stack: Arial, sans-serif;
 $base-color: #ffffff;
-$accent-color: #0073e6;
+$accent-color: #5088c0;
 $background-color: #6bb4ed;
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  // box-sizing: border-box;
   font-family: $font-stack;
 }
 
 body {
-  background-color: $background-color;
+  margin: 0 auto;
+  font-size: larger;
   color: $base-color;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: $background-color;
 }
 
 header {
   background-color: $accent-color;
   color: #ffffff;
   padding: 10px;
+  border-radius: 1px;
 
-  nav ul {
+  .nav {
     display: flex;
-    gap: 15px;
-    list-style: none;
     justify-content: center;
+
+    .nav-menu {
+      display: flex;
+      justify-content: space-around;
+      width: 80%;
+      list-style: none;
+
+      .nav-menu-item {
+        padding: 0 3px;
+
+        .nav-menu-link {
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+    }
   }
-    
-  a {
-    color: #ffffff;
-    text-decoration: none;
+}
+
+main {
+  .personal-info {
+    text-align: center;
+    margin: 20px 0;
+
+    .profile-photo {
+      width: 25%;
+      height: 25%;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+      
+    h1 {
+      font-size: 2em;
+    }
+      
+    .contact-info {
+      margin-top: 10px;
+      font-size: 1em;
+      list-style: none;
+      // color: darken($base-color, 10%);
+    }
   }
 }
