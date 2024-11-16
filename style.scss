@@ -1,12 +1,11 @@
 $font-stack: Arial, sans-serif;
 $base-color: #ffffff;
 $accent-color: #5088c0;
-$background-color: #6bb4ed;
+$background-color: #59aded;
 
 * {
   margin: 0;
   padding: 0;
-  // box-sizing: border-box;
   font-family: $font-stack;
 }
 
@@ -106,21 +105,22 @@ main {
   .code-example {
     pre {
       margin: 10px;
-      background-color: #444447;
-      color: #6293d3;
+      background-color: #303034;
+      color: #3a77c7;
       border-radius: 50px;
     }
   }
 
   #projects {
+    margin-bottom: 50px;
+
     .projects-list {
-      margin: 1em;
+      margin-left: 1em;
 
       .projects-list-item {
-        // display: inline-block;
         width: 25%;
-        margin: 10px;
-        padding: 5px;
+        margin: 15px 0;
+        padding: 5px 0;
         border-bottom: 2px solid darken($base-color, 5%);
       }
 
@@ -132,6 +132,17 @@ main {
     }
   }
 
+  #education {
+    margin-bottom: 50px;
+
+    .university {
+      margin: 30px 0;
+
+      h3 {
+        margin: 5px 0;
+      }
+    }
+  }
 }
 
 footer {
