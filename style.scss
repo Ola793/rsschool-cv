@@ -15,6 +15,10 @@ $background-color: #6bb4ed;
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   font-size: larger;

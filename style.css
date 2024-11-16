@@ -9,6 +9,10 @@ footer .content-wrapper p a, header .nav .nav-menu .nav-menu-item .nav-menu-link
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   font-size: larger;
