@@ -67,6 +67,30 @@
         <li class="skills-list-item">JavaScript</li>
       </ul>
     </section>
+
+    <section class="code-example">
+      <h2>Code Example</h2>
+
+      <h3>Solution to a Codewars problem:</h3>
+
+      <pre>
+        <code>
+          // JavaScript code example
+
+          // Find the missing term in an Arithmetic Progression
+          
+          var findMissing = function (list) {  
+            for (let i = 0; i < list.length; i++) {
+              if (list[i + 1] - list[i] === list[i + 2] - list[i + 1]) {
+                continue;
+              } else {
+                return list[i] + list[i + 2] - list[i + 1];
+              }
+            }
+          }
+        </code>
+      </pre>
+  </section>
   </main>
 
   <footer>

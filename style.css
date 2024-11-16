@@ -69,6 +69,12 @@ main .personal-info .contact-info .contact-info-item {
 main #skills .skills-list {
   margin-left: 1em;
 }
+main .code-example pre {
+  margin: 10px;
+  background-color: #444447;
+  color: #6293d3;
+  border-radius: 50px;
+}
 main section {
   margin-bottom: 20px;
 }
