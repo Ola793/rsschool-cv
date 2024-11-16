@@ -41,7 +41,7 @@
 
       <h1>Olha Teplova</h1>
 
-      <ul class="contact-info">
+      <ul class="contact-info" id="contact">
         <li class="contact-info-item"><strong>Email:</strong> olitieplove@gmail.com</li>
 
         <li class="contact-info-item"><strong>Phone:</strong> +48 881 528 712</li>
@@ -82,7 +82,7 @@
           // Find the missing term in an Arithmetic Progression
           
           var findMissing = function (list) {  
-            for (let i = 0; i < list.length; i++) {
+            for (let i = 0; i &lt; list.length; i++) {
               if (list[i + 1] - list[i] === list[i + 2] - list[i + 1]) {
                 continue;
               } else {

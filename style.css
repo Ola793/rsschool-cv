@@ -80,10 +80,14 @@ main #skills .skills-list {
   margin-left: 1em;
 }
 main .code-example pre {
-  margin: 10px;
-  background-color: #303034;
-  color: #3a77c7;
+  display: flex;
+  margin: 20px;
+  white-space: pre-wrap;
+  background-color: #000000;
+  color: #59aded;
   border-radius: 50px;
+  max-width: 100%;
+  overflow: auto;
 }
 main #projects {
   margin-bottom: 50px;
@@ -92,7 +96,6 @@ main #projects .projects-list {
   margin-left: 1em;
 }
 main #projects .projects-list .projects-list-item {
-  width: 25%;
   margin: 15px 0;
   padding: 5px 0;
   border-bottom: 2px solid #f2f2f2;
@@ -127,6 +130,6 @@ footer .content-wrapper p {
   align-self: center;
 }
 footer .content-wrapper img {
-  height: 40px;
+  width: 10%;
   margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */

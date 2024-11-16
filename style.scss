@@ -104,10 +104,14 @@ main {
 
   .code-example {
     pre {
-      margin: 10px;
-      background-color: #303034;
-      color: #3a77c7;
+      display: flex;
+      margin: 20px;
+      white-space: pre-wrap; 
+      background-color: #000000;
+      color: $background-color;
       border-radius: 50px;
+      max-width: 100%; 
+      overflow: auto; 
     }
   }
 
@@ -118,7 +122,6 @@ main {
       margin-left: 1em;
 
       .projects-list-item {
-        width: 25%;
         margin: 15px 0;
         padding: 5px 0;
         border-bottom: 2px solid darken($base-color, 5%);
@@ -167,7 +170,7 @@ footer {
     }
       
     img {
-      height: 40px;
+      width: 10%;
       margin-top: 10px;
     }
   }
