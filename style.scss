@@ -110,7 +110,7 @@ main {
   .code-example {
     pre {
       display: flex;
-      margin: 20px;
+      margin: 20px 0;
       white-space: pre-wrap; 
       background-color: #000000;
       color: $background-color;
@@ -121,13 +121,10 @@ main {
   }
 
   #projects {
-    margin-bottom: 50px;
-
     .projects-list {
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      margin-left: 1em;
 
       .projects-list-item {
         margin: 15px 0;
@@ -145,7 +142,7 @@ main {
   }
 
   #education {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
     h3 {
       margin: 5px 0;
@@ -153,7 +150,7 @@ main {
 
     .education-wrapper {
       div {
-        margin: 20px 0 50px;
+        margin: 30px 0;
       }
     }
   }

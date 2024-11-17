@@ -85,7 +85,7 @@ main #skills .skills-list .skills-list-item {
 }
 main .code-example pre {
   display: flex;
-  margin: 20px;
+  margin: 20px 0;
   white-space: pre-wrap;
   background-color: #000000;
   color: #59aded;
@@ -93,14 +93,10 @@ main .code-example pre {
   max-width: 100%;
   overflow: auto;
 }
-main #projects {
-  margin-bottom: 50px;
-}
 main #projects .projects-list {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-left: 1em;
 }
 main #projects .projects-list .projects-list-item {
   margin: 15px 0;
@@ -113,13 +109,13 @@ main #projects .projects-list .projects-list-item .projects-list-link {
   font-weight: 900;
 }
 main #education {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 main #education h3 {
   margin: 5px 0;
 }
 main #education .education-wrapper div {
-  margin: 20px 0 50px;
+  margin: 30px 0;
 }
 
 footer {
