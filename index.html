@@ -1,13 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/cv.png" type="image/png">
+  <title>Olha Teplova - CV</title>
 </head>
 <body>
-    <h1>My Perfect CV</h1>
+  <header>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a class="nav-menu-link" href="#about">About</a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a class="nav-menu-link" href="#skills">Skills</a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a class="nav-menu-link" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a class="nav-menu-link" href="#education">Education</a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a class="nav-menu-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="personal-info">
+      <img src="img/photo.jpg" alt="Profile Photo" class="profile-photo">
+
+      <h1>Olha Teplova</h1>
+
+      <ul class="contact-info" id="contact">
+        <li class="contact-info-item"><strong>Email:</strong> olitieplove@gmail.com</li>
+
+        <li class="contact-info-item"><strong>Phone:</strong> +48 881 528 712</li>
+
+        <li class="contact-info-item"><strong>Discord:</strong> @Ola793#2611</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      
+      <p class="about-me">
+        Junior developer with a passion for web development, eager to learn and grow in a collaborative team. Skilled in HTML, CSS and JavaScript.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <ul class="skills-list">
+        <li class="skills-list-item">HTML</li>
+
+        <li class="skills-list-item">CSS</li>
+
+        <li class="skills-list-item">JavaScript</li>
+      </ul>
+    </section>
+
+    <section class="code-example">
+      <h2>Code Example</h2>
+
+      <h3>Solution to a Codewars problem:</h3>
+
+      <pre>
+        <code>
+          // JavaScript code example
+
+          // Find the missing term in an Arithmetic Progression
+          
+          var findMissing = function (list) {  
+            for (let i = 0; i &lt; list.length; i++) {
+              if (list[i + 1] - list[i] === list[i + 2] - list[i + 1]) {
+                continue;
+              } else {
+                return list[i] + list[i + 2] - list[i + 1];
+              }
+            }
+          }
+        </code>
+      </pre>
+    </section>
+
+    <section id="projects">
+      <h2>Completed Projects</h2>
+
+      <ul class="projects-list">
+        <li class="projects-list-item">
+          <a class="projects-list-link" href="https://ola793.github.io/Unlimitech/">Unlimitech</a>
+        </li>
+
+        <li class="projects-list-item">
+          <a class="projects-list-link" href="https://ola793.github.io/coffee-house/">Coffee-house</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="education-wrapper">
+        <div class="university">
+          <h3>Bachelor’s Degree in System engineering</h3>
+  
+          <p>Odesа Polytechnic National University</p>
+        </div>
+  
+        <div class="english">
+          <h3>English Proficiency:</h3> 
+
+          <p>Upper Intermediate (B2)</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="content-wrapper">
+      <p>© 2024 Olha Teplova</p>
+
+      <p>
+        <a href="https://github.com/Ola793">GitHub</a>
+      </p>
+
+      <p>
+        <a href="https://rs.school/courses/javascript">RS School JavaScript / Front-end Course</a>
+      </p>
+
+      <img src="img/rs-school-logo.svg" alt="RS School Logo">
+    </div>
+  </footer>
 </body>
 </html>

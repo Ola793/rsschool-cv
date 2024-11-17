@@ -1,5 +1,139 @@
-body {
-    background-color: #e7caf8;
-    font-size: 5rem;
-    color: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
+
+footer .content-wrapper p a, main #projects .projects-list .projects-list-item .projects-list-link, header .nav .nav-menu .nav-menu-item .nav-menu-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-size: larger;
+  color: #ffffff;
+  background-color: #59aded;
+}
+
+header {
+  background-color: #5088c0;
+  color: #ffffff;
+  border-radius: 1px;
+}
+header .nav {
+  display: flex;
+  justify-content: center;
+}
+header .nav .nav-menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 10px;
+  list-style: none;
+}
+header .nav .nav-menu .nav-menu-item {
+  align-self: center;
+  padding: 0 3px;
+}
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+main section {
+  margin-bottom: 20px;
+}
+main section h2 {
+  font-size: 1.5em;
+  color: #ffffff;
+  border-bottom: 2px solid #5088c0;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+main .personal-info {
+  text-align: center;
+  margin: 20px 0;
+}
+main .personal-info .profile-photo {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+main .personal-info h1 {
+  font-size: 2em;
+}
+main .personal-info .contact-info {
+  margin-top: 10px;
+  font-size: 1em;
+  list-style: none;
+  color: #f2f2f2;
+}
+main .personal-info .contact-info .contact-info-item {
+  margin: 5px 0;
+}
+main #skills .skills-list {
+  margin-left: 1em;
+}
+main #skills .skills-list .skills-list-item {
+  padding: 5px 0;
+}
+main .code-example pre {
+  display: flex;
+  margin: 20px 0;
+  white-space: pre-wrap;
+  background-color: #000000;
+  color: #59aded;
+  border-radius: 50px;
+  max-width: 100%;
+  overflow: auto;
+}
+main #projects .projects-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+main #projects .projects-list .projects-list-item {
+  margin: 15px 0;
+  padding: 10px 0;
+  border-bottom: 2px solid #f2f2f2;
+  list-style: none;
+}
+main #projects .projects-list .projects-list-item .projects-list-link {
+  font-size: 2rem;
+  font-weight: 900;
+}
+main #education {
+  margin-bottom: 40px;
+}
+main #education h3 {
+  margin: 5px 0;
+}
+main #education .education-wrapper div {
+  margin: 30px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #5088c0;
+}
+footer .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+footer .content-wrapper p {
+  align-self: center;
+}
+footer .content-wrapper img {
+  width: 4em;
+}/*# sourceMappingURL=style.css.map */

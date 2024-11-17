@@ -1,0 +1,184 @@
+$font-stack: Arial, sans-serif;
+$base-color: #ffffff;
+$accent-color: #5088c0;
+$background-color: #59aded;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-stack;
+}
+
+%a-style {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-size: larger;
+  color: $base-color;
+  background-color: $background-color;
+}
+
+header {
+  background-color: $accent-color;
+  color: #ffffff;
+  border-radius: 1px;
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    
+    .nav-menu {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 80%;
+      padding: 10px;
+      list-style: none;
+
+      .nav-menu-item {
+        align-self: center;
+        padding: 0 3px;
+
+        .nav-menu-link {
+          @extend %a-style;
+        }
+      }
+    }
+  }
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+
+  section {
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 1.5em;
+      color: $base-color;
+      border-bottom: 2px solid $accent-color;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .personal-info {
+    text-align: center;
+    margin: 20px 0;
+
+    .profile-photo {
+      width: 25%;
+      height: 25%;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+      
+    h1 {
+      font-size: 2em;
+    }
+      
+    .contact-info {
+      margin-top: 10px;
+      font-size: 1em;
+      list-style: none;
+      color: darken($base-color, 5%);
+
+      .contact-info-item {
+        margin: 5px 0;
+      }
+    }
+  }
+
+  #skills {
+    .skills-list {
+      margin-left: 1em;
+
+      .skills-list-item {
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .code-example {
+    pre {
+      display: flex;
+      margin: 20px 0;
+      white-space: pre-wrap; 
+      background-color: #000000;
+      color: $background-color;
+      border-radius: 50px;
+      max-width: 100%; 
+      overflow: auto; 
+    }
+  }
+
+  #projects {
+    .projects-list {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      .projects-list-item {
+        margin: 15px 0;
+        padding: 10px 0;
+        border-bottom: 2px solid darken($base-color, 5%);
+        list-style: none;
+
+        .projects-list-link {
+          @extend %a-style;
+          font-size: 2rem;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+
+  #education {
+    margin-bottom: 40px;
+
+    h3 {
+      margin: 5px 0;
+    }
+
+    .education-wrapper {
+      div {
+        margin: 30px 0;
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: $accent-color;
+
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+
+    p {
+      align-self: center;
+  
+      a {
+        @extend %a-style;
+      }
+    }
+      
+    img {
+      width: 4em;
+    }
+  }
+}
