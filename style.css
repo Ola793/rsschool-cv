@@ -46,7 +46,7 @@ main {
   width: 80%;
 }
 main section {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 main section h2 {
   font-size: 1.5em;
@@ -107,9 +107,6 @@ main #projects .projects-list .projects-list-item {
 main #projects .projects-list .projects-list-item .projects-list-link {
   font-size: 2rem;
   font-weight: 900;
-}
-main #education {
-  margin-bottom: 40px;
 }
 main #education h3 {
   margin: 5px 0;
