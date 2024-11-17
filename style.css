@@ -32,6 +32,7 @@ header .nav {
 header .nav .nav-menu {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 80%;
   padding: 10px;
   list-style: none;
@@ -79,6 +80,9 @@ main .personal-info .contact-info .contact-info-item {
 main #skills .skills-list {
   margin-left: 1em;
 }
+main #skills .skills-list .skills-list-item {
+  padding: 5px 0;
+}
 main .code-example pre {
   display: flex;
   margin: 20px;
@@ -95,6 +99,7 @@ main #projects {
 main #projects .projects-list {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-left: 1em;
 }
 main #projects .projects-list .projects-list-item {
@@ -110,11 +115,11 @@ main #projects .projects-list .projects-list-item .projects-list-link {
 main #education {
   margin-bottom: 50px;
 }
-main #education .university {
-  margin: 30px 0;
-}
-main #education .university h3 {
+main #education h3 {
   margin: 5px 0;
+}
+main #education .education-wrapper div {
+  margin: 20px 0 50px;
 }
 
 footer {
@@ -124,7 +129,8 @@ footer {
 }
 footer .content-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 80%;
   padding: 10px;
   text-align: center;
@@ -133,6 +139,5 @@ footer .content-wrapper p {
   align-self: center;
 }
 footer .content-wrapper img {
-  width: 10%;
-  margin-top: 10px;
+  width: 4em;
 }/*# sourceMappingURL=style.css.map */
