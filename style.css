@@ -4,7 +4,7 @@
   font-family: Arial, sans-serif;
 }
 
-footer .content-wrapper p a, main #projects .projects-list a, header .nav .nav-menu .nav-menu-item .nav-menu-link {
+footer .content-wrapper p a, main #projects .projects-list .projects-list-item .projects-list-link, header .nav .nav-menu .nav-menu-item .nav-menu-link {
   color: #ffffff;
   text-decoration: none;
 }
@@ -93,16 +93,19 @@ main #projects {
   margin-bottom: 50px;
 }
 main #projects .projects-list {
+  display: flex;
+  justify-content: space-evenly;
   margin-left: 1em;
 }
 main #projects .projects-list .projects-list-item {
   margin: 15px 0;
-  padding: 5px 0;
+  padding: 10px 0;
   border-bottom: 2px solid #f2f2f2;
+  list-style: none;
 }
-main #projects .projects-list a {
+main #projects .projects-list .projects-list-item .projects-list-link {
   font-size: 2rem;
-  color: #f2f2f2;
+  font-weight: 900;
 }
 main #education {
   margin-bottom: 50px;

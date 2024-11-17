@@ -119,18 +119,21 @@ main {
     margin-bottom: 50px;
 
     .projects-list {
+      display: flex;
+      justify-content: space-evenly;
       margin-left: 1em;
 
       .projects-list-item {
         margin: 15px 0;
-        padding: 5px 0;
+        padding: 10px 0;
         border-bottom: 2px solid darken($base-color, 5%);
-      }
+        list-style: none;
 
-      a {
-        @extend %a-style;
-        font-size: 2rem;
-        color: darken($base-color, 5%);
+        .projects-list-link {
+          @extend %a-style;
+          font-size: 2rem;
+          font-weight: 900;
+        }
       }
     }
   }
@@ -160,7 +163,6 @@ footer {
     padding: 10px;
     text-align: center;
 
-  
     p {
       align-self: center;
   
